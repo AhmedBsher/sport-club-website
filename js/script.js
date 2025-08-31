@@ -568,7 +568,7 @@ document.addEventListener('DOMContentLoaded', function() {
             location: "Downtown Courts"
         },
         {
-            imgSrc: "https://images.unsplash.com/photo-1574629810360-7efbbe195d86?auto=format&fit=crop&w=800&q=80",
+            imgSrc: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             imgAlt: "Soccer Match",
             category: "League",
             title: "Weekend Soccer League",
@@ -600,7 +600,7 @@ document.addEventListener('DOMContentLoaded', function() {
             location: "Green Valley Trails"
         },
         {
-            imgSrc: "https://images.unsplash.com/photo-1554066158-9d9e3d3d8c1a?auto=format&fit=crop&w=800&q=80",
+            imgSrc: "https://images.unsplash.com/photo-1530549387789-4c1017266635?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             imgAlt: "Swimming Competition",
             category: "Championship",
             title: "Regional Swim Meet",
@@ -720,7 +720,7 @@ document.addEventListener('DOMContentLoaded', function() {
         name: "Marcus Johnson",
         title: "Head Tennis Coach",
         specialty: "Tennis",
-        imgSrc: "https://images.unsplash.com/photo-1565996791-136fe2c06a4e?auto=format&fit=crop&w=800&q=80",
+        imgSrc: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "Former ATP professional with 10+ years of coaching experience. Specializes in technical skills and mental toughness training.",
         social: {
             twitter: "#",
@@ -731,7 +731,7 @@ document.addEventListener('DOMContentLoaded', function() {
         name: "Sarah Williams",
         title: "Swim Coach",
         specialty: "Swimming",
-        imgSrc: "https://images.unsplash.com/photo-1573496358961-3cde501d8f7d?auto=format&fit=crop&w=800&q=80",
+        imgSrc: "https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "Olympic medalist with a passion for teaching proper stroke techniques and endurance training for all skill levels.",
         social: {
             twitter: "#",
@@ -753,7 +753,7 @@ document.addEventListener('DOMContentLoaded', function() {
         name: "Priya Patel",
         title: "Yoga & Flexibility",
         specialty: "Yoga",
-        imgSrc: "https://images.unsplash.com/photo-1571019614242-cb5f9db4f4b1?auto=format&fit=crop&w=800&q=80",
+        imgSrc: "https://images.unsplash.com/photo-1485727749690-d091e8284ef3?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "Certified yoga instructor with expertise in improving flexibility, strength, and mental focus for athletes of all levels.",
         social: {
             twitter: "#",

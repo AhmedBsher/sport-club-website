@@ -416,18 +416,19 @@ img {
     body.dark-mode #navbar .nav-links a:hover {
         background: rgba(255, 255, 255, 0.05);
     }
-}
 
 /* Ensure menu toggle is always visible */
 #navbar .menu-toggle {
-    color: white !important;
+    color: var(--primary-dark) !important;
     background: var(--primary-color);
 }
 
 /* Add hover effect */
 #navbar .menu-toggle:hover {
-    background: var(--primary-dark);
+    background: var(--primary-color);
     transform: translateY(-2px);
+    transition: .4s ease-in-out;
+    transform: scale(1.05);
 }
 
 /* Section Background Colors for Light Mode */
@@ -462,13 +463,17 @@ body:not(.dark-mode) #contact {
 
 /* --- Hero Section --- */
 #hero {
-    height: 100vh;
+    min-height: 110vh;
+    height: auto;
+    padding-top: 90px; /* Adjust based on your navbar height */
+    margin-top: -20px; /* Negative margin to pull content up */
     background: url('https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1920') no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
     text-align: center;
     color: var(--white-color);
+    z-index: 1; /* Ensure content stays above the overlay but below navbar */
 }
 
 .hero-overlay {
@@ -958,7 +963,11 @@ flex-shrink: 0;
 }
 
 .dark-mode .theme-switcher .fa-moon {
-    color: #e2e8f0;
+    color: #ffffff;
+}
+
+.theme-switcher .fa-moon {
+    color: #160000;
 }
 
 /* Ensure all icons are visible */
@@ -1917,4 +1926,24 @@ body.dark-mode #membership-form input, body.dark-mode #membership-form select {
     .hero-stats { grid-template-columns: 1fr 1fr; }
     .testimonials-grid { grid-template-columns: 1fr; }
     .footer-grid { grid-template-columns: 1fr; }
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:black;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #414141;
+    transition: .4s ease;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
 }

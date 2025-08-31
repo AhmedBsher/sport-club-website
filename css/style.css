@@ -28,12 +28,26 @@ body.dark-mode .section-header h2 {
     color: var(--dark-color);
 }
 
-body.dark-mode .feature-card, body.dark-mode .event-card {
-    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+/* Program cards in dark mode */
+body.dark-mode .program-card {
+    background: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #334155;
 }
 
-body.dark-mode .feature-card:hover, body.dark-mode .event-card:hover {
+body.dark-mode .program-card i {
+    color: var(--primary-color);
+}
+
+body.dark-mode .feature-card, body.dark-mode .event-card, body.dark-mode .program-card {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    background: #1e293b;
+    color: #e2e8f0;
+}
+
+body.dark-mode .feature-card:hover, body.dark-mode .event-card:hover, body.dark-mode .program-card:hover {
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    transform: translateY(-5px);
 }
 
 body.dark-mode .testimonial-card {
@@ -425,7 +439,7 @@ img {
 
 /* Add hover effect */
 #navbar .menu-toggle:hover {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     transform: translateY(-2px);
     transition: .4s ease-in-out;
     transform: scale(1.05);

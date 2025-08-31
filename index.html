@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Sports Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#top" class="logo" onclick="event.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); return false;">Elite Sports Club</a>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Mobile Menu Overlay -->
+            <div class="menu-overlay" id="menu-overlay"></div>
+            
+            <!-- Mobile Menu -->
+            <div class="nav-links" id="nav-links">
+                <button class="close-menu" id="close-menu" aria-label="Close menu">
+                    <i class="fas fa-times"></i>
+                </button>
+                
+                <ul>
+                    <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#features"><i class="fas fa-running"></i> Features</a></li>
+                    <li><a href="#programs"><i class="fas fa-dumbbell"></i> Programs</a></li>
+                    <li><a href="#events"><i class="fas fa-calendar-alt"></i> Events</a></li>
+                    <li><a href="#coaches"><i class="fas fa-users"></i> Coaches</a></li>
+                    <li><a href="#testimonials"><i class="fas fa-star"></i> Testimonials</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li><a href="#join-modal" class="btn btn-primary">Join Now</a></li>
+                    <li class="theme-switcher-item">
+                        <div class="theme-switcher">
+                            <i class="fas fa-sun"></i>
+                            <label class="switch">
+                                <input type="checkbox" id="theme-toggle">
+                                <span class="slider round"></span>
+                            </label>
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Elevate Your Game at <span class="highlight">Elite Sports Club</span></h1>
+            <p>Join our community of athletes and take your skills to the next level with professional coaching and top-notch facilities.</p>
+            <div class="hero-buttons">
+                <a href="#join-modal" class="btn btn-secondary">Join Now</a>
+                <a href="#programs" class="btn btn-outline">Explore Programs</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><h3>15+</h3><p>Sports</p></div>
+                <div class="stat"><h3>50+</h3><p>Coaches</p></div>
+                <div class="stat"><h3>1000+</h3><p>Members</p></div>
+                <div class="stat"><h3>24/7</h3><p>Facility Access</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Our Club?</h2>
+                <p>We're committed to providing the best training experience for athletes of all levels.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>Expert Coaches</h3>
+                    <p>Learn from certified professionals with years of competitive experience.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>Thriving Community</h3>
+                    <p>Join a supportive community of athletes who share your passion for sports.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>Modern Facilities</h3>
+                    <p>Train in our state-of-the-art facilities with the latest equipment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="section reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Programs</h2>
+                <p>Find the perfect program to match your athletic goals.</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <i class="fas fa-futbol"></i>
+                    <h3>Youth Soccer</h3>
+                    <p>For ages 5-18, focusing on skill development, teamwork, and sportsmanship in a fun environment.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-basketball-ball"></i>
+                    <h3>Adult Basketball Leagues</h3>
+                    <p>Competitive and recreational leagues for adults. Join a team or sign up as a free agent.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-swimmer"></i>
+                    <h3>Swim Academy</h3>
+                    <p>From beginner lessons to advanced stroke clinics, our certified instructors are here to help.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Personal Training</h3>
+                    <p>Achieve your fitness goals with one-on-one guidance from our expert personal trainers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section id="events" class="section bg-light reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Upcoming Events</h2>
+                <p>Join us for exciting events, tournaments, and training sessions.</p>
+            </div>
+            <div class="event-filters" id="event-filters">
+                <!-- Filter buttons will be dynamically inserted here -->
+            </div>
+            <div class="events-grid" id="events-grid">
+                <!-- Events will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Coaches Section -->
+    <section id="coaches" class="section bg-light reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Coaches</h2>
+                <p>Our team of professional coaches is dedicated to your success.</p>
+            </div>
+            <div class="coaches-grid grid" id="coaches-grid">
+                <!-- Coach cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Members Say</h2>
+                <p>Don't just take our word for it. Here's what our members have to say.</p>
+            </div>
+            <div class="swiper-container testimonial-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img data-src="https://randomuser.me/api/portraits/women/44.jpg" alt="Member Photo" class="lazy-img swiper-lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                <div>
+                                    <h4>Sarah Johnson</h4>
+                                    <p>Professional Athlete</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-body">"Joining Elite Sports Club was the best decision for my career. The coaches are incredibly knowledgeable."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img data-src="https://randomuser.me/api/portraits/men/32.jpg" alt="Member Photo" class="lazy-img swiper-lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                <div>
+                                    <h4>Michael Chen</h4>
+                                    <p>Fitness Enthusiast</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-body">"The facilities are top-notch and the community is so welcoming. I've made great progress on my fitness goals."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img data-src="https://randomuser.me/api/portraits/women/68.jpg" alt="Jessica Lee" class="lazy-img swiper-lazy">
+                                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                                <div>
+                                    <h4>Jessica Lee</h4>
+                                    <p>Weekend Warrior</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-body">"A fantastic place to unwind and stay active. The variety of sports and classes is amazing!"</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="section cta">
+        <div class="container">
+            <h2>Ready to Start Your Journey?</h2>
+            <p>Join our community of athletes today and experience world-class training, facilities, and support.</p>
+            <a href="#join-modal" class="btn btn-secondary">Join Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Elite Sports Club</h3>
+                    <p>Your premier destination for sports excellence and a thriving athletic community.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#coaches">Coaches</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elite Sports Club. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Membership Modal -->
+    <div id="join-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="section-header">
+                <h2>Join Elite Sports Club</h2>
+                <p>Fill out the form below to start your membership application.</p>
+            </div>
+            <form id="membership-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <small class="error-message"></small>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                    <small class="error-message"></small>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <small class="error-message"></small>
+                </div>
+                <div class="form-group">
+                    <label for="sport">Primary Sport of Interest</label>
+                    <select id="sport" name="sport">
+                        <option value="tennis">Tennis</option>
+                        <option value="swimming">Swimming</option>
+                        <option value="basketball">Basketball</option>
+                        <option value="soccer">Soccer</option>
+                        <option value="gym">General Fitness</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

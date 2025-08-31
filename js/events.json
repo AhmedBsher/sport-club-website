@@ -1,0 +1,50 @@
+[
+    {
+        "imgSrc": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800",
+        "imgAlt": "Tournament",
+        "category": "Tournament",
+        "title": "Summer Tennis Open",
+        "date": "August 15, 2025",
+        "location": "Main Stadium"
+    },
+    {
+        "imgSrc": "https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=800",
+        "imgAlt": "Training Camp",
+        "category": "Training",
+        "title": "Youth Soccer Camp",
+        "date": "August 20, 2025",
+        "location": "Training Grounds"
+    },
+    {
+        "imgSrc": "https://images.unsplash.com/photo-1576630282532-543818385a30?auto=format&fit=crop&w=800",
+        "imgAlt": "Swimming Gala",
+        "category": "Competition",
+        "title": "Annual Swimming Gala",
+        "date": "September 5, 2025",
+        "location": "Aquatic Center"
+    },
+    {
+        "imgSrc": "https://images.unsplash.com/photo-1560272564-c83b66b17415?auto=format&fit=crop&w=800",
+        "imgAlt": "Soccer Match",
+        "category": "Competition",
+        "title": "Charity Soccer Match",
+        "date": "September 12, 2025",
+        "location": "Main Stadium"
+    },
+    {
+        "imgSrc": "https://images.unsplash.com/photo-1593431889843-2f2f8a7c4e5a?auto=format&fit=crop&w=800",
+        "imgAlt": "Yoga Workshop",
+        "category": "Workshop",
+        "title": "Mindfulness & Yoga Workshop",
+        "date": "September 18, 2025",
+        "location": "Studio 3"
+    },
+    {
+        "imgSrc": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800",
+        "imgAlt": "Marathon",
+        "category": "Competition",
+        "title": "City Marathon Challenge",
+        "date": "October 2, 2025",
+        "location": "City Streets"
+    }
+]

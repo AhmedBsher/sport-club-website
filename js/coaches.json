@@ -1,0 +1,62 @@
+[
+    {
+        "name": "John Carter",
+        "title": "Head Tennis Coach",
+        "imgSrc": "https://randomuser.me/api/portraits/men/11.jpg",
+        "description": "With over 15 years of professional experience, John specializes in developing competitive junior players.",
+        "social": {
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Emily White",
+        "title": "Lead Swim Instructor",
+        "imgSrc": "https://randomuser.me/api/portraits/women/12.jpg",
+        "description": "An Olympic medalist, Emily brings a world-class perspective to our swimming programs for all ages.",
+        "social": {
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "David Lee",
+        "title": "Basketball Program Director",
+        "imgSrc": "https://randomuser.me/api/portraits/men/15.jpg",
+        "description": "David played professional basketball for 10 years and now focuses on building strong team dynamics.",
+        "social": {
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Maria Garcia",
+        "title": "Head of Fitness & Training",
+        "imgSrc": "https://randomuser.me/api/portraits/women/18.jpg",
+        "description": "Maria is a certified strength and conditioning specialist dedicated to helping members achieve their peak physical condition.",
+        "social": {
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Chris Evans",
+        "title": "Yoga & Mindfulness Coach",
+        "imgSrc": "https://randomuser.me/api/portraits/men/22.jpg",
+        "description": "Chris combines ancient yoga techniques with modern mindfulness practices to improve flexibility and reduce stress.",
+        "social": {
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "name": "Sophia Loren",
+        "title": "Nutritionist",
+        "imgSrc": "https://randomuser.me/api/portraits/women/25.jpg",
+        "description": "Sophia provides personalized nutrition plans to help members optimize their diet for performance and health.",
+        "social": {
+            "twitter": "#",
+            "linkedin": "#"
+        }
+    }
+]

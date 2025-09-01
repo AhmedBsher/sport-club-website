@@ -1439,6 +1439,12 @@ input:checked + .slider:before {
     transition: all 0.3s ease;
 }
 
+#navbar .logo:hover{
+    color: #facc15;
+    transform: scale(1.08);
+    transition: all 0.3s ease;
+}
+
 #navbar .container {
     display: flex;
     justify-content: space-between;

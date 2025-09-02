@@ -42,7 +42,7 @@ body.dark-mode .program-card i {
 body.dark-mode .feature-card, body.dark-mode .event-card, body.dark-mode .program-card {
     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     background: #1e293b;
-    color: #e2e8f0;
+    color: #858a91;
 }
 
 body.dark-mode .feature-card:hover, body.dark-mode .event-card:hover, body.dark-mode .program-card:hover {

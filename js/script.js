@@ -662,8 +662,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const eventsGrid = document.getElementById('events-grid');
         const eventFiltersContainer = document.getElementById('event-filters');
         
-        if (!eventsGrid) {
-            console.error('Events grid element not found');
+        if (!eventsGrid || !eventFiltersContainer) {
+            console.error('Events grid or filters container not found');
             return;
         }
 
@@ -675,6 +675,9 @@ document.addEventListener('DOMContentLoaded', function() {
             eventsData.forEach(event => {
                 eventsGrid.innerHTML += renderEventCard(event);
             });
+
+            // Setup filters
+            setupFilters(eventsData);
 
             // Add event listeners for hover effects
             document.querySelectorAll('.event-card').forEach(card => {
